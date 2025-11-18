@@ -1,0 +1,27 @@
+{
+  "name": "cyberpunk-theme",
+  "displayName": "Cyberpunk Theme",
+  "description": "A cyberpunk-inspired VS Code theme with vibrant red, cyan, dark grey, and green colors",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cyberpunk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberpunk-theme.json"
+      }
+    ]
+  },
+  "publisher": "cyberpunk-theme",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
+
