@@ -1,0 +1,16 @@
+.vscode
+node_modules
+.git
+.gitignore
+.vscodeignore
+*.map
+*.psd
+*.ai
+.DS_Store
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+dist
+coverage
+tests

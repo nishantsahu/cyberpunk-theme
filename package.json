@@ -1,13 +1,20 @@
 {
-  "name": "cyberpunk-theme",
+  "name": "cyberpunk-neon-theme",
   "displayName": "Cyberpunk Theme",
   "description": "A cyberpunk-inspired VS Code theme with vibrant red, cyan, dark grey, and green colors",
   "version": "1.0.0",
+  "publisher": "nishantdev",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "cyberpunk",
+    "vscode-theme",
+    "dark"
   ],
   "contributes": {
     "themes": [
@@ -18,10 +25,18 @@
       }
     ]
   },
-  "publisher": "cyberpunk-theme",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/nishantsahu/cyberpunk-theme"
+  },
+  "license": "MIT",
+  "scripts": {
+    "package": "npx -y vsce package",
+    "publish": "npx -y vsce publish",
+    "prepack": "node -e \"console.log('Preparing package...')\""
+  },
+  "devDependencies": {
+    "vsce": "^2.10.0"
   }
 }
-
